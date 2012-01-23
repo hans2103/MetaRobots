@@ -1,2 +1,2 @@
-code                    app/code/community/HKweb/MetaRobots
+code/MetaRobots         app/code/community/HKweb/MetaRobots
 HKweb_MetaRobots.xml    app/etc/modules/HKweb_MetaRobots.xml
