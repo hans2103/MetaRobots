@@ -1,6 +1,6 @@
 <?php
 /**
- * HKweb
+ * Hans2103
  *
  * NOTICE OF LICENSE
  *
@@ -18,21 +18,21 @@
  * versions in the future. If you wish to customize Magento for your
  * needs please refer to http://www.magentocommerce.com for more information.
  *
- * @category    HKweb
- * @package     HKweb_MetaRobots
- * @copyright   Copyright (c) 2011 HKweb Internet. (http://www.HKweb.nl)
+ * @category    Hans2103
+ * @package     Hans2103_MetaRobots
+ * @copyright   Copyright (c) 2011 Hans2103 Internet. (http://www.Hans2103.nl)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
 /**
  * Category View block
  *
- * @category   HKweb
- * @package    HKweb_MetaRobots
+ * @category   Hans2103
+ * @package    Hans2103_MetaRobots
  * @author     Magento Core Team <core@magentocommerce.com>
- * @editor     HKweb <support@HKweb.nl>
+ * @editor     Hans2103 <support@Hans2103.nl>
  */
-class HKweb_MetaRobots_Block_Category_View extends Mage_Catalog_Block_Category_View
+class Hans2103_MetaRobots_Block_Category_View extends Mage_Catalog_Block_Category_View
 {
     protected function _prepareLayout()
     {
@@ -47,7 +47,7 @@ class HKweb_MetaRobots_Block_Category_View extends Mage_Catalog_Block_Category_V
             }
             
             /**
-             * start modification HKweb
+             * start modification Hans2103
              * changing value meta tag robots on category pages 2 and further
              */
             $url = Mage::helper('core/url')->getCurrentUrl();
@@ -56,7 +56,7 @@ class HKweb_MetaRobots_Block_Category_View extends Mage_Catalog_Block_Category_V
 				$headBlock->setRobots('NOINDEX,FOLLOW');
 			}			
 			
-			// end modification HKweb Internet
+			// end modification Hans2103 Internet
 			
             if ($description = $category->getMetaDescription()) {
                 $headBlock->setDescription($description);
