@@ -17,3 +17,5 @@ demo: compare source code of http://threetosties.nl/apparel.html and http://thre
 
 == Copyright
 Magento MetaRobots Extension is licensed under Open Software License ("OSL") v. 3.0
+
+[![Analytics](https://ga-beacon.appspot.com/UA-2000642-17/MetaRobots/readme)](https://github.com/igrigorik/ga-beacon)
