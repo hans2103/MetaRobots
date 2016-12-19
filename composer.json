@@ -1,0 +1,17 @@
+{
+  "name": "hans2103/metarobots",
+  "license": "GPL-3.0",
+  "type": "magento-module",
+  "description": "Magento extension MetaRobots. To set value of meta tag robots to noindex,follow on page 2 and further.",
+  "homepage": "https://github.com/hans2103/MetaRobots",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Hans Kuijpers",
+      "email": "support@hkweb.nl",
+      "role": "Author/Maintainer"
+    }
+  ]
+}
